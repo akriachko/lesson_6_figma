@@ -1,0 +1,126 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+
+@font-face {
+	font-family: CircularStd;
+	src: url('../fonts/CircularStd-Black.woff2'), url('../fonts/CircularStd-Black.woff') format(woff);
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: CircularStd;
+	src: url('../fonts/CircularStd-Bold.woff2') format(woff2), url('../fonts/CircularStd-Bold.woff') format(woff);
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: CircularStd;
+	src: url('../fonts/CircularStd-Book.woff2') format(woff2), url('../fonts/CircularStd-Book.woff') format(woff);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: CircularStd;
+	src: url('../fonts/CircularStd-Medium.woff2') format(woff2), url('../fonts/CircularStd-Medium.woff') format(woff);
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+
+body {
+	font-family: "CircularStd", sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1025px ;
+	height: 1174px;
+}
+
+h1 {
+	margin-top: 140px;
+	font-size: 65px;
+	line-height: 82px;
+	text-align: center;
+	color: #313131;	
+}
+
+.box-1 {
+	margin: 0 auto;
+	width: 750px;
+	height: 50px;
+
+}
+
+.text-1 {
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #5F5F5F;
+}
+
+.box-2 {
+	margin-top: 224px;
+	margin-left: -100px;
+	width: 508px;
+	height: 380px;
+}
+
+.text-2 {
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 130%;
+	color: #313131;
+	opacity: 0.88;
+}
+
+.text-p {
+	margin-top: 20px;
+	font-size: 18px;
+    line-height: 28px;
+	color: #5F5F5F;
+}
+
+.text-3 {
+	margin-top: 130px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 130%;
+	color: #313131;
+	opacity: 0.88;	
+}
+
+.text-4 {
+	font-size: 18px;
+	line-height: 23px;
+	color: #B8B8B8;
+}
+
+.box-img {
+	padding-top: 67px;
+	padding-left: 560px;
+	width: 468px;
+	height: 675px;
+	
+
+}
+
+
+
+
+
+
+
